@@ -6,10 +6,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Presentación Personal</title>
 </head>
- <body>
-      <h1><b><u>Yanina Alvarez</u></b></h1>
+<body>
+    <div>
+     <h1><b>❤<u> Yanina Alvarez </u>❤</b></h1>
 
-      <img src="fotoconfeli.jpg" alt="foto con feli" title="foto con feli" width="480px" height="640px" />
+      <img src="fotoconfeli.jpg" alt="foto con feli" title="foto con feli" width="240px" height="320px" />
 
       <ul>
          <li>Nombre: Yanina</li>
@@ -21,8 +22,8 @@
       <h2><i>Un poco sobre mi..</i></h2>
 
       <p>
-          Hola! Mi nombre es Yanina y este es mi primer desafio en el curso de fullstack de Nucba.<br> 
-          Disfruto mucho de estar en contacto con la naturaleza, los animales, tambien viajar y conocer nuevos lugares y sus culturas.<br>
+          Hola! Mi nombre es Yanina y este es mi segundo desafio en el curso de fullstack de Nucba.<br> 
+          Disfruto mucho de estar en contacto con la naturaleza, los animales. Tambien viajar, conocer nuevos lugares y sus culturas.<br>
           Me gusta cocinar innovando con diferentes ingredientes, sabores y texturas.
       </p>
 
@@ -34,5 +35,46 @@
 
       <a href="https://www.youtube.com/watch?v=4-XayQ-IVig"> Andres Calamaro - Cuando te conocí</a>
       <hr>
-    </body>
+
+      <h3><u>Contacto!</u></h3>
+
+      <form action="">
+         <label for="nombre"> NOMBRE </label>
+         <input type="text" id="nombre" placeholder="ingrese su nombre" required>
+         <br>
+         <label for="apellido"> APELLIDO </label>
+         <input type="text" id="apellido" placeholder="ingrese su apellido" required>
+         <br>
+         <label for="telefono"> TELEFONO </label>
+         <input type="number" id="telefono" placeholder="ingrese su telefono" required>
+         <br>
+         <label for="nacimiento"> FECHA DE NACIMIENTO </label>
+         <input type="date" id="nacimiento" required>
+         <br>
+         <label for="correo"> EMAIL </label>
+         <input type="email" id="correo" placeholder="ingrese su email" required>
+         <br><br>
+         <span>¿Estás interesado en el mundo de la programación?</span>
+         <select>
+             <option value="si"> SI </option>
+             <option value="no"> NO </option>
+         </select>
+         <br>
+         <p>¿Cómo conociste Nucba?</p>
+         <input type="radio" name="conociste" id="redes sociales">
+         <label for="redes sociales"> Redes Sociales </label>
+         <input type="radio" name="conociste" id="buscador">
+         <label for="buscador"> Buscador </label>
+         <input type="radio" name="conociste" id="recomendacion">
+         <label for="recomendacion"> Recomendación </label>
+         <br><br>
+         <span> Dejame tu opinión aca ⇩ </span>
+         <br>
+         <label for="texto"></label>
+         <textarea id="texto" cols="50" rows="10"></textarea>
+         <br>
+         <input type="submit" value="Enviar">
+      </form>
+    </div>
+</body>
 </html>
